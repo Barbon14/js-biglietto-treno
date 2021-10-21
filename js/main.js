@@ -21,13 +21,9 @@ console.log(subPrezzo);
 let prezzo;
 if (anni < 18) {
     prezzo = subPrezzo * 0.8
-}
-
-else if (anni > 65) {
+} else if (anni > 65) {
     prezzo = subPrezzo * 0.6
-} 
-
-else {
+} else {
     prezzo = subPrezzo
 }
 console.log(prezzo);
